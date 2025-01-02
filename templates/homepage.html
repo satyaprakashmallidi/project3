@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24/7 News</title>
+    <link rel="stylesheet" href="{% static 'CSS/Home.css'%}">
+</head>
+
+<body>
+    <header>
+        <a href="{% url 'Home' %}">Home</a>
+        <a href="{% url 'Au' %}">About us</a>
+    </header>
+    <div>
+        <h1 style="color: orangered;">24/7 News</h1>
+        <h3>Discover the news in Sports,Movies and Anime</h3>
+        <a href="{% url 'Sp' %}">Sports</a>
+        <a href="{% url 'M' %}">Movies</a>
+        <a href="{% url 'A' %}">Anime</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+    <link rel="stylesheet" href="{% static 'CSS/Sports.css'%}">
+</head>
+
+<body>
+    <header>
+        <h1>Sports</h1>
+        <div>
+            <a href="{% url 'Home' %}">Home</a>
+            <a href="{% url 'Au' %}">Aboutus</a>
+        </div>
+    </header>
+    <div>
+        <h1 style="color: goldenrod;">Discover The Below Sports news</h1>
+    </div>
+    <div>
+        <div>
+            <a href="{% url 'CR' %}">
+                <img src="{% static 'Photos/Cricket.png' %}" alt="Cricket">
+                <h2>Cricket</h2>
+            </a>
+        </div>
+        <div><a href="{% url 'K' %}">
+                <img src="{% static 'Photos/kabbadi.png' %}" alt="Kabbadi Photo">
+                <h2>Kabbadi</h2>
+            </a>
+        </div>
+        <div><a href="{% url 'V' %}">
+                <img src="{% static 'Photos/volleyball.png' %}" alt="VolleyBall Photo">
+                <h2>Volleyball</h2>
+            </a>
+        </div>
+        <div><a href="{% url 'F' %}">
+                <img src="{% static 'Photos/football.png' %}" alt="Football Photo">
+                <h2>Football</h2>
+            </a>
+        </div>
+        <div><a href="{% url 'H' %}">
+                <img src="{% static 'Photos/hockey.png' %}" alt="Hockey Photo">
+                <h2>Hockey</h2>
+            </a>
+        </div>
+        <div><a href="{% url 'CH' %}">
+                <img src="{% static 'Photos/chess.png' %}" alt="Chess Photo">
+                <h2>Chess</h2>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

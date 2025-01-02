@@ -1,0 +1,48 @@
+from django.shortcuts import render
+
+def homepage(request):
+	return render(request,'homepage.html')
+def Aboutus(request):
+	return render(request,'Aboutus.html')
+def Sports(request):
+	return render(request,'Sports.html')
+def Movies(request):
+	return render(request,'Movies.html')
+def Cricket(request):
+	return render(request,'Cricket.html')
+def Kabbadi(request):
+	return render(request,'Kabbadi.html')
+def Volleyball(request):
+	return render(request,'Volleyball.html')
+def Football(request):
+	return render(request,'Football.html')
+def Hockey(request):
+	return render(request,'Hockey.html')
+def Chess(request):
+	return render(request,'Chess.html')
+def Anime(request):
+	return render(request,'Anime.html')
+def RajaSaab(request):
+	return render(request,'RajaSaab.html')
+def Salaar(request):
+	return render(request,'Salaar.html')
+def Chathrapathi(request):
+	return render(request,'Chathrapathi.html')
+def OG(request):
+	return render(request,'OG.html')
+def BeemlaNayak(request):
+	return render(request,'BeemlaNayak.html')
+def Ustaad(request):
+	return render(request,'Ustaad.html')
+def Demonslayer(request):
+	return render(request,'Demonslayer.html')
+def AOT(request):
+	return render(request,'AOT.html')
+def OnePiece(request):
+	return render(request,'OnePiece.html')
+def HxH(request):
+	return render(request,'HxH.html')
+def BlackClover(request):
+	return render(request,'BlackClover.html')
+def TTIGRAAS(request):
+	return render(request,'TTIGRAAS.html')

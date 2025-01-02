@@ -1,0 +1,58 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+    <link rel="stylesheet" href="{% static 'CSS/Movies.css'%}">
+</head>
+
+<body>
+    <header>
+        <h1>Movies</h1>
+        <div>
+            <a href="{% url 'Home' %}">Home</a>
+            <a href="{% url 'Au' %}">Aboutus</a>
+        </div>
+    </header>
+    <div>
+        <h1 style="color: goldenrod;">Discover The Below Movies News</h1>
+    </div>
+    <div>
+        <div><a href="{% url 'RS' %}">
+                <img src="{% static 'Photos/rajasaab.jpeg'%}" alt="RajaSaab photo">
+                <h2>Raja Saab</h2>
+            </a>
+        </div>
+        <div><a href="{% url 'S' %}">
+                <img src="{% static 'Photos/Salaar.jpeg'%}" alt="Salaar photo">
+                <h2>Salaar</h2>
+            </a>
+        </div>
+        <div><a href="{% url 'C' %}">
+                <img src="{% static 'Photos/Chatrapati.jpeg'%}" alt="Chathrapathi photo">
+                <h2>Chathrapathi</h2>
+            </a>
+        </div>
+        <div><a href="{% url 'O' %}">
+                <img src="{% static 'Photos/og.jpeg'%}" alt="OG photo">
+                <h2>OG</h2>
+            </a>
+        </div>
+        <div><a href="{% url 'BN' %}">
+                <img src="{% static 'Photos/bheemla.jpeg'%}" alt="BeemlaNayak">
+                <h2>Beemla Nayak</h2>
+            </a>
+        </div>
+        <div><a href="{% url 'U' %}">
+                <img src="{% static 'Photos/ubs.jpeg'%}" alt="Ustaad photo">
+                <h2>Ustaad Bhagat Singh</h2>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

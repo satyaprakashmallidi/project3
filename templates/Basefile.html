@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Page</title>
+    <link rel="stylesheet" href="{% static 'CSS/Basefile.css'%}">
+</head>
+
+<body>
+    <header>
+        {%block Title%}
+        {%endblock Title%}
+        <div>
+            <a href="{% url 'Home' %}">Home</a>
+            <a href="{% url 'Au' %}">About us</a>
+        </div>
+    </header>
+    <div>
+        {%block Content%}
+        {%endblock Content%}
+    </div>
+</body>
+
+</html>

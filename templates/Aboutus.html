@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24/7 News</title>
+    <link rel="stylesheet" href="{% static 'CSS/Aboutus.css'%}">
+</head>
+
+<body>
+    <header>
+        <a href="{% url 'Home' %}">Home</a>
+        <a href="{% url 'Au' %}">About us</a>
+    </header>
+    <div>
+        <h1 style="color: orangered;">24/7 News</h1>
+        <p>To deliver timely and accurate news coverage around the clock.</p>
+        <p>A dedicated team of experienced journalists committed to journalistic integrity.</p>
+        <p>Encouraging audience interaction and feedback to foster a community of informed readers.</p>
+    </div>
+</body>
+
+</html>
