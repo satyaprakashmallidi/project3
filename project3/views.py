@@ -9,7 +9,7 @@ def Sports(request):
 def Movies(request):
 	return render(request,'Movies.html')
 def Cricket(request):
-	return render(request,'Cricket.html')
+	return render(request,'cricket.html')
 def Kabbadi(request):
 	return render(request,'Kabbadi.html')
 def Volleyball(request):
