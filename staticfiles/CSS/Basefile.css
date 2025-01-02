@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #111;
+    padding: 10px 15px;
+    /* Reduced padding */
+    display: flex;
+    justify-content: space-between;
+    /* Align items to the far right */
+    align-items: center;
+    /* Vertically center items */
+}
+
+header h1 {
+    color: #ff6f61;
+    font-size: 20px;
+    /* Reduced font size to match links */
+    margin: 0;
+    /* Remove default margin */
+    text-transform: uppercase;
+    /* Optional: Make the title uppercase */
+}
+
+header a {
+    color: #ff6f61;
+    text-decoration: none;
+    margin-left: 15px;
+    /* Reduced spacing between links */
+    font-size: 16px;
+    /* Font size for links */
+    transition: color 0.3s ease;
+}
+
+header a:hover {
+    color: #ffcc00;
+}
+
+/* Content Styles */
+div {
+    padding: 20px;
+    text-align: center;
+}
+
+div img {
+    width: 100%;
+    max-width: 400px;
+    /* Limit image width */
+    aspect-ratio: 1 / 1;
+    /* Maintain 1:1 aspect ratio */
+    object-fit: cover;
+    /* Ensure the image covers the square area */
+    border-radius: 10px;
+    border-bottom: 2px solid #ff6f61;
+}
+
+div h2 {
+    color: #ffcc00;
+    font-size: 24px;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+
+div h2:hover {
+    color: #ff6f61;
+}
+
+div p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify;
+}
